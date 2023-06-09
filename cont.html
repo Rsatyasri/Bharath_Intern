@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+         .container{
+        height:745px;
+        background-color: #0b0909;
+        justify-content: center;
+        }
+        .title h2{
+            color: #ded2d2;
+        }
+        .title{
+            text-align: center;
+            padding-top:50px;
+            font-size: 40px;
+            height: 100px;
+        }
+        .p{
+            display: flex;
+            padding-top:125px;
+            padding-left:220px;
+        }
+        .box{
+           
+            width: 300px;
+            height: 300px;
+            margin: 20px 20px;
+            border-radius: 10px;
+            background-color: #191919;
+        }
+        .box h4{
+            font-size: 30px;
+            padding:12px;
+            color: #c9a7a7;
+        }
+        .ms,.kl,.ex{
+            color: #fcfc;
+            font-size: 20px;
+            padding: 10px 10px;
+        }
+        .ms ul li,.kl ul li,.ex ul li{
+            list-style-type:none;
+            padding-left:3px;
+        }
+        li::before{
+            content: "\00BB";
+            color: rgb(222, 163, 86);
+            margin-right:5px;
+        }
+        .kl ul {
+           margin-top:-25px;  
+        }
+        .page{
+            display: flex;
+        }
+        .page a{
+        font-size: 30px;
+        text-decoration: none;
+        padding: 10px;
+        position: relative;
+        top:1.7cm;
+        right:-15cm;
+
+      }
+      .ac{
+         color:azure;
+         background-color: rgb(30, 42, 42);
+      }
+      .page a:hover:not(.ac){
+        background-color: black;
+      }
+    </style>
+</head>
+<body>
+    <footer>
+        <section class="container">
+            <div class="title">
+                <h2>My Details</h2>
+            </div>
+           <div class="p">
+            <div class="box">
+                <h4>Education Details</h4>
+                <div class="ms">
+                  <ul>
+                    <li>10<sup>th </sup>passed with 10GPA</li>
+                    <li>12<sup>th </sup>passed with 97%</li>
+                  </ul>
+                </div>
+            </div>
+            <div class="box">
+               <h4>Programming Languages</h4>
+               <div class="kl">
+                <ul>
+                    <li>python</li>
+                    <li>C</li>
+                    <li>Java</li>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>SQL</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="box">
+               <h4>Aspirations</h4>
+               <div class="ex">
+               <ul>
+                <li>Web Designer</li>
+                <li>Developer</li>
+               </ul>
+               </div>
+            </div>
+        </div>
+        <div class="page">
+            <a href="#">&lang;</a>
+            
+            <a href="portfolio.html" >1</a>
+            <a href="about.html" >2</a>
+            <a href="#" class="ac">3</a>
+            <a href="#">&rang;</a>
+        </div>
+        </section>
+        
+        </footer>
+</body>
+</html>
